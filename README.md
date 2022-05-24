@@ -28,7 +28,7 @@ The repository includes three folders:
 In order to reproduce the results I have gotten (and which can be found in the "out" folder), a few steps has to be followed:
 
 1) Install the relevant packages - relevant packages for both scripts can be found in the "requirements.txt" file.
-2) Make sure to place the script in the "src" folder and the data in the "in" folder. The data used for this project can is placed in the in folder.
+2) Make sure to place the script in the "src" folder and the data in the "in" folder. Ross has the data used for this project.  
 3) Run the script from the terminal and remember to pass the required argument (-ds (dataset)
 -> Make sure to navigate to the main folder before executing the script - then you just have to type the following in the terminal: 
 "python src/Sentiment_and_NER.py -ds {name of the desired dataset}"

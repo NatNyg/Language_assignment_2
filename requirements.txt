@@ -4,6 +4,7 @@ In order for this script to run, the following packages must firstly be installe
 - vaderSentiment
 - spacytextblob
 - pandas
+- tqdm
 
 Further, the spacy nlp model used must be downloaded in the following way:
 - python -m spacy download en_core_web_sm

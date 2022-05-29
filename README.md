@@ -3,7 +3,7 @@
 ## This is the repository for assignment 2 in Language Analytics.
 
 ### Project Description
-This project provides for a tool that can get every sentiment score in headlines in a dataset, find all geopolitical mentions in each headline and lastly find the 20 most common geopoliticial entities across each dataset. For this project I have used a "fake-or-real-news dataset". 
+This project provides for a tool that can get every sentiment score for each headline in a dataset, find all geopolitical mentions in each headline and lastly find the 20 most common geopoliticial entities across each dataset. For this project I have used a "fake-or-real-news dataset". 
 
 
 ### Method
@@ -27,13 +27,14 @@ The repository includes three folders:
 
 In order to reproduce the results I have gotten (and which can be found in the "out" folder), a few steps has to be followed:
 
-1) Install the relevant packages - relevant packages for both scripts can be found in the "requirements.txt" file.
+1) Install the relevant packages - relevant packages for the script can be found in the "requirements.txt" file.
 2) Make sure to place the script in the "src" folder and the data in the "in" folder. Ross has the data used for this project.  
 3) Run the script from the terminal and remember to pass the required argument (-ds (dataset)
 -> Make sure to navigate to the main folder before executing the script - then you just have to type the following in the terminal: 
-"python src/Sentiment_and_NER.py -ds {name of the desired dataset}"
+
+python src/Sentiment_and_NER.py -ds {name of the desired dataset}
 
 This should give you the same results as I have gotten in the "out" folder.
  
 ### Results
-The results are interesting to look at, as it gives us a quick and easy overview about what geopolitical entities is being spoken about in a text, and how the sentiment is about the content. It becomes even more interesting when comparing these informations across datasets, as we have done here. This could also be done across different news media to see if there is a difference in the way the sentiment is, compared to different named entities. The barplots provides a quick overview which is interesting to look at for potential further analysis. 
+The results are interesting to look at, as it provides a quick and easy overview about what geopolitical entities is being spoken about in a text, and how the sentiment is about the content. It becomes even more interesting when comparing these informations across datasets, as we have done here. This could also be done across different news media to see if there is a difference in the way the sentiment is, compared to different named entities. The barplots provides a quick overview which is interesting to look at for potential further analysis. 
